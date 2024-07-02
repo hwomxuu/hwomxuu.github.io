@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', serif;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px; 
+    width: 20%;
+}
+
+.div-intro{
+    margin: auto;
+    text-align: center;
+}
+
+.div-main {
+    display: flex;  
+}
+
+.div-child {
+    flex: 1;
+    border: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgb(108, 108, 243);
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: auto;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+h2, p {
+    text-align: center;
+    margin: 0;
+}
